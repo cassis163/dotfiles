@@ -5,7 +5,10 @@
 - clean: ['~']
 
 - link:
-    ~/.vim: vim
+    ~/.dotfiles: ''
+    ~/.bashrc:
+    ~/.bash_logout:
+    ~/.gitconfig:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
