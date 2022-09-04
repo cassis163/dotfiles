@@ -4,12 +4,20 @@
 
 - clean: ['~']
 
+- create:
+  - ~/.config/alacritty
+
 - link:
     ~/.dotfiles: ''
-    ~/.bashrc:
-    ~/.bash_logout:
-    ~/.gitconfig:
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
     ~/.zshrc:
+      force: true
+      path: zshrc
+    ~/.config/alacritty/alacritty.yml:
+      force: true
+      path: alacritty/alacritty.yml
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
