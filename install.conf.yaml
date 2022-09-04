@@ -9,6 +9,7 @@
     ~/.bashrc:
     ~/.bash_logout:
     ~/.gitconfig:
+    ~/.zshrc:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
