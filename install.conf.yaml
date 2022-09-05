@@ -18,6 +18,9 @@
     ~/.config/alacritty/alacritty.yml:
       force: true
       path: alacritty/alacritty.yml
+    ~/.p10k.zsh:
+      force: true
+      path: p10k.zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
