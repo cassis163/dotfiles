@@ -25,7 +25,7 @@
       path: p10k.zsh
     ~/.config/VSCodium/User/settings.json:
       force: true
-      path: vscodium_settings.json
+      path: vscodium/settings.json
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
