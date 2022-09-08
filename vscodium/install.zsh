@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
 # Extensions
-pkglist=(
+extension_ids=(
     esbenp.prettier-vscode
     EditorConfig.EditorConfig
     ms-azuretools.vscode-docker
 )
 
-for i in ${pkglist[@]}; do
-    code --install-extension $i
+for i in ${extension_ids[@]}; do
+    codium --install-extension $i
 done
