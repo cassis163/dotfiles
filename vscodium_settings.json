@@ -4,5 +4,6 @@
     "editor.fontLigatures": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.colorTheme": "Sublime Material Theme - Dark"
 }
