@@ -113,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim="nvim "
+alias codium="flatpak run com.vscodium.codium --no-sandbox "
 alias code="codium "
 alias pop-os-update-all="sudo nala update && sudo nala upgrade && sudo nala autoremove && flatpak update"
 alias arch-update-all="sudo pacman -Sy && paru -Sua && flatpak update && sudo snap refresh"
