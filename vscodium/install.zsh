@@ -1,5 +1,7 @@
 #!/bin/sh
 
+source ~/.zshrc
+
 # Extensions
 extension_ids=(
     esbenp.prettier-vscode
