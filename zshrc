@@ -114,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim="nvim "
 alias code="codium "
-alias pop-os-update-all="sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update"
+alias pop-os-update-all="sudo nala update && sudo nala upgrade && sudo nala autoremove && flatpak update"
 alias arch-update-all="sudo pacman -Sy && paru -Sua && flatpak update && sudo snap refresh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
