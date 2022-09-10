@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vim="vim "
+alias vim="nvim "
 alias code="codium "
 alias pop-os-update-all="sudo apt update && sudo apt upgrade && sudo apt autoremove && flatpak update"
 
