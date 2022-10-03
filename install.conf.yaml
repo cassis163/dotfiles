@@ -8,6 +8,7 @@
   - ~/.config/alacritty
   - ~/.config/VSCodium
   - ~/.config/VSCodium/User
+  - ~/.config/nushell
 
 - link:
     ~/.dotfiles: ''
@@ -26,6 +27,15 @@
     ~/.config/VSCodium/User/settings.json:
       force: true
       path: vscodium/settings.json
+    ~/.config/starship.toml:
+      force: true
+      path: starship.toml
+    ~/.config/nushell/config.nu:
+      force: true
+      path: nu-config.nu
+    ~/.config/nushell/env.nu:
+      force: true
+      path: nu-env.nu
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

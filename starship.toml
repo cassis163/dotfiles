@@ -1,0 +1,17 @@
+[gcloud]
+format = 'on [$symbol$account(@$domain)(\($project\))]($style) '
+
+[docker_context]
+format = "via [🐋 $context](blue bold)"
+
+[memory_usage]
+disabled = false
+threshold = -1
+symbol = " "
+style = "bold dimmed green"
+
+[rust]
+format = "via [⚙️ $version](red bold)"
+
+[java]
+symbol = "🌟 "
