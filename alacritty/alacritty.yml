@@ -468,7 +468,7 @@ colors:
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
 shell:
-  program: nu
+  program: /usr/bin/zsh
 
 # Startup directory
 #
