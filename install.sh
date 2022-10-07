@@ -6,6 +6,7 @@ DOTFILES=~/.dotfiles
 mkdir -p ~/.local/share/fonts
 cp $DOTFILES/fonts/meslo-lgs-nf-fonts/*.ttf ~/.local/share/fonts
 cp $DOTFILES/fonts/fira-code/ttf/*.ttf ~/.local/share/fonts
+cp $DOTFILES/fonts/roboto/*.ttf ~/.local/share/fonts
 
 # Install wallpapers
 mkdir -p ~/Pictures
