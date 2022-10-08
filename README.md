@@ -8,10 +8,9 @@ This repository was made by following [this guide](https://www.anishathalye.com/
 * picom
 * Alacritty
 
-## ZSH
-* Oh my zsh
-* Powerlevel10k
-* zsh-autosuggestions
-
 # Installation
-Run `install.sh` which installs everything that is needed before automatically running `./install` (fonts for instance).
+All you have to do is `sh install.sh`. This will:
+* Install fonts
+* Install wallpapers
+* Setup oh-my-zsh (with theming and plugins)
+* And finally, run `./install`, which sets all the configuration files in place.
