@@ -9,6 +9,7 @@
   - ~/.config/VSCodium
   - ~/.config/VSCodium/User
   - ~/.config/nushell
+  - ~/.config/awesome
 
 - link:
     ~/.dotfiles: ''
@@ -30,6 +31,12 @@
     ~/.fehbg:
       force: true
       path: fehbg
+    ~/.config/awesome/rc.lua:
+      force: true
+      path: awesome/rc.lua
+    ~/.config/awesome/theme.lua:
+      force: true
+      path: awesome/theme.lua
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
