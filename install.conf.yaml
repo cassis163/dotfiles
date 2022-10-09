@@ -32,9 +32,6 @@
     ~/.config/VSCodium/product.json:
       force: true
       path: vscodium/product.json
-    ~/.fehbg:
-      force: true
-      path: fehbg
     ~/.config/awesome/rc.lua:
       force: true
       path: awesome/rc.lua
