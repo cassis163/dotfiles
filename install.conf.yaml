@@ -29,6 +29,9 @@
     ~/.config/VSCodium/User/settings.json:
       force: true
       path: vscodium/settings.json
+    ~/.config/VSCodium/product.json:
+      force: true
+      path: vscodium/product.json
     ~/.fehbg:
       force: true
       path: fehbg
