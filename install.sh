@@ -25,4 +25,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 $DOTFILES/install
 
 # Run my VSCodium installer for getting basic extensions like Prettier and Editorconfig
-sh ./vscodium/install.sh
+zsh ./vscodium/install.zsh
