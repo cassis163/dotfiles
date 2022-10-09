@@ -10,6 +10,7 @@
   - ~/.config/VSCodium/User
   - ~/.config/nushell
   - ~/.config/awesome
+  - ~/.config/picom
 
 - link:
     ~/.dotfiles: ''
@@ -37,6 +38,9 @@
     ~/.config/awesome/theme.lua:
       force: true
       path: awesome/theme.lua
+    ~/.config/picom/picom.conf:
+      force: true
+      path: picom/picom.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
