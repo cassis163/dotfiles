@@ -21,5 +21,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Install powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-# Finally, install configuration files with dotbot
+# Install configuration files with dotbot
 $DOTFILES/install
+
+# Run my VSCodium installer for getting basic extensions like Prettier and Editorconfig
+sh ./vscodium/install.sh
