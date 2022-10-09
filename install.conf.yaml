@@ -32,12 +32,9 @@
     ~/.config/VSCodium/product.json:
       force: true
       path: vscodium/product.json
-    ~/.config/awesome/rc.lua:
+    ~/.config/awesome:
       force: true
-      path: awesome/rc.lua
-    ~/.config/awesome/theme.lua:
-      force: true
-      path: awesome/theme.lua
+      path: awesome
     ~/.config/picom/picom.conf:
       force: true
       path: picom/picom.conf
