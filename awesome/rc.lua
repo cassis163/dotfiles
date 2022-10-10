@@ -565,5 +565,8 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
+-- Run polybar
+awful.util.spawn("sh ~/.config/polybar/launch.sh")
+
 -- Run picom
 awful.util.spawn("picom --experimental-backends -b")
