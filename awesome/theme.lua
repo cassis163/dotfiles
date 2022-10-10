@@ -71,7 +71,7 @@ theme.menu_width  = dpi(100)
 -- beautiful.variable in your rc.lua
 --theme.bg_widget = "#cc0000"
 
-theme.wallpaper = "/home/cassis/Pictures/wallpapers/monterry-white.jpg"
+theme.wallpaper = "/home/cassis/Pictures/wallpapers/pexels-eberhard-grossgasteiger-1287145.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
