@@ -38,6 +38,9 @@
     ~/.config/picom/picom.conf:
       force: true
       path: picom/picom.conf
+    ~/.config/polybar:
+      force: true
+      path: polybar
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
