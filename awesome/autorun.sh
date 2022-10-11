@@ -9,4 +9,5 @@ run() {
 }
 
 run "$HOME/.config/polybar/launch.sh"
-run "picom --experimental-backends"
+
+exec picom --experimental-backends &
