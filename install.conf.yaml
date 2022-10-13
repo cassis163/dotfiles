@@ -47,6 +47,9 @@
     ~/.config/kdeglobals:
       force: true
       path: kdeglobals
+    ~/.config/rofi:
+      force: true
+      path: rofi
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
