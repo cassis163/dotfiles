@@ -8,6 +8,9 @@ cp $DOTFILES/fonts/meslo-lgs-nf-fonts/*.ttf ~/.local/share/fonts
 cp $DOTFILES/fonts/fira-code/ttf/*.ttf ~/.local/share/fonts
 cp $DOTFILES/fonts/roboto/*.ttf ~/.local/share/fonts
 
+sudo mkdir -p /usr/share/fonts/opentype
+sudo cp $DOTFILES/fonts/fira-mono-nf-font/*.otf /usr/share/fonts/opentype
+
 # Install wallpapers
 mkdir -p ~/Pictures
 git clone git@github.com:cassis163/wallpapers.git ~/Pictures/wallpapers
