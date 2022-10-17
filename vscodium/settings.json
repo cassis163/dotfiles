@@ -7,5 +7,6 @@
     },
     "workbench.startupEditor": "none",
     "redhat.telemetry.enabled": false,
-    "Lua.telemetry.enable": false
+    "Lua.telemetry.enable": false,
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
