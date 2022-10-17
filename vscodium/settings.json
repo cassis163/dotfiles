@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "FiraCode Nerd Font",
     "editor.fontLigatures": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -8,5 +8,6 @@
     "workbench.startupEditor": "none",
     "redhat.telemetry.enabled": false,
     "Lua.telemetry.enable": false,
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontWeight": "450"
 }
