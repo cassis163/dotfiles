@@ -116,6 +116,7 @@ alias vim="nvim "
 alias code="codium "
 alias pop-os-update-all="sudo nala upgrade && sudo nala autoremove && flatpak update"
 alias arch-update-all="sudo pacman -Sy && paru -Sua && flatpak update && sudo snap refresh"
+alias fedora-update-all="sudo dnf update && flatpak update"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
